@@ -7,10 +7,7 @@ import json
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Change this to a secure secret key
 
-# Twilio credentials
-TWILIO_ACCOUNT_SID = 'AC185e2e8df9e15e5f54bad236b5ccc6ac'
-TWILIO_AUTH_TOKEN = '2c2258ae71a6f4176d8317edbe6e8004'
-TWILIO_PHONE_NUMBER = '+16073896731'
+
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
